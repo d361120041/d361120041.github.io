@@ -5,9 +5,8 @@ html{
   background: #EEE url('../images/20230114_131133.jpg') top left/cover no-repeat fixed;
   margin: 3%;
   padding: 2%;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont,
+  font-family: "Hepta Slab", -apple-system, system-ui, BlinkMacSystemFont,
   "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-family: "Hepta Slab", serif;
 }
 
 body{
@@ -38,8 +37,6 @@ nav > a{
   background: rgba(220, 220, 220, 0.8);
   padding: 5%;
   margin: 2px 0;
-  /* float: left; */
-  /* display: inline-block; */
   color: black;
   font-size: 2rem;
   font-weight: 500;
@@ -54,14 +51,7 @@ nav > a:hover
 nav > a:active
 { background: rgba(220, 220, 220, 0.8); }
 
-/* nav::after{
-content: "";
-clear: both;
-display: table;
-} */
-
 main{
-  /* display: flex; */
   flex-flow: column wrap;
 }
 
@@ -91,7 +81,3 @@ footer{
 @media only screen and (min-width: 600px){
   nav, main { flex-flow: row wrap;}
 }
-
-/* @media only screen and (min-width: 992px){
-  nav > a { width: 23%; }
-} */
